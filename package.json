@@ -9,7 +9,11 @@
     ]
   },
   "scripts": {
-    "dev": "yarn --cwd packages/main run dev",
-    "build": "yarn --cwd packages/main run build"
+    "dev:main": "yarn --cwd packages/main run dev",
+    "build:main": "yarn --cwd packages/main run build",
+    "dev:app1": "yarn --cwd packages/app1 run dev",
+    "build:app1": "yarn --cwd packages/app1 run build",
+    "dev:app2": "yarn --cwd packages/app2 run dev",
+    "build:app2": "yarn --cwd packages/app2 run build"
   }
 }

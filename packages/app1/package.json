@@ -11,9 +11,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "common": "*",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "common": "*"
+    "react-window": "^1.8.10"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
