@@ -9,6 +9,7 @@
     ]
   },
   "scripts": {
-    "main": "yarn --cwd packages/main run dev"
+    "dev": "yarn --cwd packages/main run dev",
+    "build": "yarn --cwd packages/main run build"
   }
 }
